@@ -12,3 +12,5 @@ vim.api.nvim_set_keymap("n", "<C-h>", ":bprev<CR>", { noremap = true, silent = t
 
 -- Use Ctrl+L to switch to the next buffer
 vim.api.nvim_set_keymap("n", "<C-l>", ":bnext<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>t", ":ToggleTerm<CR>", { noremap = true })
+vim.api.nvim_set_keymap("t", "jk", "<C-\\><C-n><CR>", { noremap = true, silent = true })
