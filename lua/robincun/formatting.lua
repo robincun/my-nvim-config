@@ -16,6 +16,7 @@ conform.setup({
 		graphql = { "prettier" },
 		lua = { "stylua" },
 		python = { "isort", "black" },
+		kotlin = { "ast-grep" },
 	},
 	format_on_save = {
 		lsp_fallback = true,
