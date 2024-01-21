@@ -70,6 +70,7 @@ return require("packer").startup(function(use)
 	})
 	use("folke/tokyonight.nvim")
 	use("xiyaowong/transparent.nvim")
+	use("rebelot/kanagawa.nvim")
 	-- Put this at the end after all plugins
 	if packer_bootstrap then
 		require("packer").sync()
