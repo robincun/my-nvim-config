@@ -1,14 +1,9 @@
 -- hier sind einige generelle nvim einstellungen
 
-vim.wo.number = true
 -- :set virtualedit=onemore
 vim.cmd([[set virtualedit=onemore]])
 vim.opt.termguicolors = true
--- Set color scheme to gruvbox
-vim.cmd([[colorscheme kanagawa ]])
 
-require("transparent").clear_prefix("BufferLine")
-require("transparent").clear_prefix("NvimTree")
 local options = {
 	backup = false, -- creates a backup file
 	clipboard = "unnamedplus", -- allows neovim to access the system clipboard
